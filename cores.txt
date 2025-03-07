@@ -1,0 +1,6 @@
+cores:
+
+amarelo: #FFD700
+azul escuro: #0c0c32
+verde: #1f6027
+verde florescente: #b9fa3c
