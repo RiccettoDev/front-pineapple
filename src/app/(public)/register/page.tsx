@@ -42,7 +42,7 @@ export default function Register() {
     
         try {
           // Envia os dados para a API via POST
-          const response = await api.post("http://localhost:8080/users", sanitizedValues);
+          const response = await api.post("http://pineapplesoccer-api-qcfavm-11890a-54-224-70-148.traefik.me/users", sanitizedValues);
           console.log("Resposta da API:", response.data);
           toast({
             title: "Cadastrado com sucesso!",
